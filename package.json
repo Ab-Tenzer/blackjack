@@ -1,0 +1,36 @@
+{
+  "name": "yocojack",
+  "version": "1.0.0",
+  "description": "YocoJack is a very simple card game that is played with two people (it’s similar to Blackjack but different in important ways). The goal is to have your cards add up to as close to 21 as you can, without going over 21.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js --exec babel-node --presets es2015,stage-2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ab-Tenzer/yocojack.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Abongile Tenza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ab-Tenzer/yocojack/issues"
+  },
+  "homepage": "https://github.com/Ab-Tenzer/yocojack#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
